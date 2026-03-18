@@ -44,22 +44,6 @@ Um formulário de cadastro dividido em etapas (multi-step), com validação de c
 
 ---
 
-⚙️ Como executar o projeto
-
-1. Clone o repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-2. Acesse a pasta:
-
-cd seu-repositorio
-
-3. Abra o arquivo:
-
-index.html
-
----
-
 📚 Aprendizados
 
 Neste projeto, pratiquei:
