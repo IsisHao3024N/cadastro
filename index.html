@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilo/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <h1>Cadastro de usuário</h1>
+        <form action="#" method="post">
+            <section class="part active">
+                <div>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" placeholder="Informe o seu nome">
+                </div>
+                <div>
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome" placeholder="Informe o seu sobrenome">
+                </div>
+                <div>
+                    <label for="idata">Nascimento</label>
+                    <input type="date" name="data" id="idata" placeholder="Informe a data de nascimento">
+                </div>
+                <div class="genero">
+                    <div class="genero-m">
+                        <input type="radio" name="sexo" id="if">
+                        <label for="if">Feminino</label>
+                    </div>
+                    <div class="genero-m">
+                        <input type="radio" name="sexo" id="im">
+                        <label for="im">Masculino</label>
+                    </div>
+                    <div class="genero-m">
+                        <input type="radio" name="sexo" id="iou">
+                        <label for="iou">Outro</label>
+                    </div>
+                </div>
+                <button type="button" class="next" onclick="next()">Próximo</button>
+
+            </section>
+            <section class="part">
+                <div  class="segundo">
+                    <label for="itel">Telefone</label>
+                    <input type="number" name="tel" id="itel" placeholder="Informe o seu Telefone">
+                </div>
+                <div class="segundo">
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail" placeholder="exemplo@gmail.com">
+                </div>
+                <div class="segundo">
+                    <label for="isenha">Senha</label>
+                    <input type="password" name="senha" id="isenha" placeholder="Digite uma senha:">
+                </div>
+                <div class="segundo">
+                    <label for="icsenha">Confirmar Senha</label>
+                    <input type="password" name="csenha" id="icsenha" placeholder="Confirme sua senha:">
+                </div>
+                <button type="button" class="recres" onclick="recres()">Voltar</button>
+                <button type="button" class="next" onclick="check()">Concluir</button>
+                
+            </section>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
